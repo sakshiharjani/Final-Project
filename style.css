@@ -2,8 +2,9 @@ html, body{
   /* height: 100%; */
   margin: 0px;
   padding: 0px;
-  font-family: source-code-pro, monospace;
-  background-color: #90E39D;
+  font-family: montserrat, sans-serif;
+  line-height: 24px;
+  background-color: #C2FCCB;
 }
 
 
@@ -17,7 +18,7 @@ html, body{
 }
 
 #title {
-  color: #5A1D71;
+  color: #AE6BC7;
   font-size: 3vw;
   font-weight: 900;
   margin-left: 3vw;
@@ -38,7 +39,8 @@ html, body{
   text-decoration: none;
   padding-right: 3vw;
   font-size: 2.5vmin;
-  color: #5A1D71;
+  color: #AE6BC7;
+  margin-top: 2vw;
 }
 
 .navButton:hover {
@@ -53,7 +55,7 @@ html, body{
   display: flex;
   flex-direction: row;
   border-style: double;
-  border-color: #5A1D71;
+  border-color: #AE6BC7;
   position: static;
 
 }
@@ -68,7 +70,7 @@ html, body{
   padding-right: 2vw;
   font-size: 1.2vw;
   font-weight: 300;
-  text-align: justify;
+
 }
 
 #subInfo {
@@ -82,7 +84,7 @@ html, body{
 #subTitle {
   font-weight: 800;
   font-size: 2.5vw;
-  color: #5A1D71;
+  color: #AE6BC7;
 }
 
 #subParagraph{
@@ -102,13 +104,16 @@ html, body{
 }
 
 #pageTitle {
-  padding-left: 30%;
+  padding-left: 27vw;
+  padding-top: 2vw;
+  margin-bottom: 5vw;
   font-weight: 800;
   font-size: 2.5vw;
-  color: #5A1D71;
+  color: #AE6BC7;
 }
 
 #pageSubtitleLeft {
+  color: grey;
   margin-left: 5vw;
 }
 
@@ -125,6 +130,7 @@ html, body{
 }
 
 #pageSubtitleRight {
+  color: grey;
   margin-left: 50%;
 }
 
@@ -143,7 +149,7 @@ html, body{
 
 li a {
   text-decoration: none;
-  color: #5A1D71;
+  color: #AE6BC7;
   font-weight: bold;
 }
 
@@ -176,5 +182,5 @@ hr {
 
 .footerContents {
   font-size: 1vw;
-  color: #5A1D71;
+  color: #AE6BC7;
 }
