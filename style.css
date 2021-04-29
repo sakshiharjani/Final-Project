@@ -93,6 +93,69 @@ html, body{
   color: black;
 }
 
+
+
+#pageInfo {
+  margin-top: 2vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+#pageTitle {
+  font-weight: 800;
+  font-size: 2.5vw;
+  color: #5A1D71;
+}
+
+#pageSubtitleLeft {
+  margin-left: 5vw;
+}
+
+#pageParagraphLeft {
+  width: 50%;
+  font-weight: 400;
+  font-size: 2vh;
+  margin-bottom: 2vw;
+  color: black;
+}
+
+#pageParagraphLeft~ul {
+  width: 50%;
+}
+
+#pageSubtitleRight {
+  margin-left: 50%;
+}
+
+#pageParagraphRight {
+  margin-left: 50%;
+  font-weight: 400;
+  font-size: 2vh;
+  padding-left: 3vw;
+  margin-bottom: 2vw;
+  color: black;
+}
+
+#listRight {
+  margin-left: 50%;
+}
+
+li a {
+  text-decoration: none;
+  color: #5A1D71;
+  font-weight: bold;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+li a:active {
+  color: white;
+}
+
+
+
 hr {
   border-style: double;
   border-color: white;
