@@ -142,7 +142,8 @@ html, body{
   color: white;
   margin-left: 5vw;
   margin-right: 54vw;
-  border-style: outset;
+  border-style: dotted;
+  border-width: medium;
   background-color: #e6b3ff;
   padding: 1vw 1vw 1vw 1.5vw;
 }
@@ -180,7 +181,8 @@ html, body{
   margin-left: 50%;
   font-size: 2vw;
   color: white;
-  border-style: outset;
+  border-style: dotted;
+  border-width: medium;
   background-color: rgb(158, 250, 172);
   padding: 1vw 1vw 1vw 1.5vw;
 
@@ -267,7 +269,7 @@ div a:active {
   color: black;
 }
 
-#stats li {
+#stats div {
   border-style: dotted;
   border-radius: 20px;
   border-width: thin;
@@ -277,17 +279,21 @@ div a:active {
 
 }
 
+h3 {
+  font-size: 5vw;
+}
+
 #pageTipsParagraphRight {
   /* margin-left: 50%; */
   font-weight: 400;
-  font-size: 2vh;
+  font-size: 3vh;
 
   margin-bottom: 2vw;
   color: black;
 
 
   width: 50%;
-  margin-left: 10vw;
+  margin-left: 20vw;
   padding: 1vw 2vw 1vw 2vw;
 }
 
