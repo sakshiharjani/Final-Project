@@ -18,7 +18,7 @@ html, body{
 }
 
 #title {
-  color: #AE6BC7;
+  color: #e6b3ff;
   font-size: 3vw;
   font-weight: 900;
   margin-left: 3vw;
@@ -28,6 +28,7 @@ html, body{
 
 
 #navContents {
+  font-weight: 600;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -39,7 +40,7 @@ html, body{
   text-decoration: none;
   padding-right: 3vw;
   font-size: 2.5vmin;
-  color: #AE6BC7;
+  color: #e6b3ff;
   margin-top: 2vw;
 }
 
@@ -55,8 +56,9 @@ html, body{
   display: flex;
   flex-direction: row;
   border-style: double;
-  border-color: #AE6BC7;
+  border-color: #e6b3ff;
   position: static;
+  line-height: 2vw;
 
 }
 
@@ -84,15 +86,38 @@ html, body{
 #subTitle {
   font-weight: 800;
   font-size: 2.5vw;
-  color: #AE6BC7;
+  color: #e6b3ff;
 }
 
-#subParagraph{
+#subParagraphOne{
+  width: 70vw;
+  background-color: #f7e6ff;
   font-weight: 400;
   font-size: 2vh;
-  padding-left: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
   margin-bottom: 2vw;
   color: black;
+  border-style:ridge;
+}
+
+#subParagraphTwo{
+  background-color: #f7e6ff;
+  font-weight: 500;
+  font-size: 2vh;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-top: 4vw;
+  width: 70vw;
+  margin-left: 13vw;
+
+  margin-bottom: 2vw;
+  color: #9a46b9;
+  border-style:ridge;
 }
 
 
@@ -109,58 +134,172 @@ html, body{
   margin-bottom: 5vw;
   font-weight: 800;
   font-size: 2.5vw;
-  color: #AE6BC7;
+  color: #e6b3ff;
 }
 
 #pageSubtitleLeft {
-  color: grey;
+  font-size: 2vw;
+  color: white;
   margin-left: 5vw;
+  margin-right: 54vw;
+  border-style: outset;
+  background-color: #e6b3ff;
+  padding: 1vw 1vw 1vw 1.5vw;
 }
 
 #pageParagraphLeft {
   width: 50%;
   font-weight: 400;
   font-size: 2vh;
+  margin-left: 10vw;
   margin-bottom: 2vw;
+  padding: 1vw 2vw 1vw 2vw;
   color: black;
+  border-style: dashed;
+  border-width: thin;
+  background-color: #f7e6ff;
 }
 
-#pageParagraphLeft~ul {
+#pageParagraphLeftEnd {
   width: 50%;
+  font-weight: 400;
+  font-size: 2vh;
+  margin-left: 30%;
+  margin-bottom: 2vw;
+  padding: 1vw 2vw 1vw 2vw;
+  color: black;
+  border-radius: 20px;
+  border-style: dashed;
+  border-width: thin;
+  background-color: rgba(239, 204, 255, 0.7);
 }
+
 
 #pageSubtitleRight {
-  color: grey;
+  margin-top: 10vw;
   margin-left: 50%;
+  font-size: 2vw;
+  color: white;
+  border-style: outset;
+  background-color: rgb(158, 250, 172);
+  padding: 1vw 1vw 1vw 1.5vw;
+
+
 }
 
 #pageParagraphRight {
-  margin-left: 50%;
+  /* margin-left: 50%; */
   font-weight: 400;
   font-size: 2vh;
-  padding-left: 3vw;
+  /* padding-left: 3vw; */
   margin-bottom: 2vw;
   color: black;
+
+
+  width: 50%;
+  margin-left: 10vw;
+  padding: 1vw 2vw 1vw 2vw;
+  border-style: dashed;
+  border-width: thin;
+  background-color: #b3ffb3;
 }
 
-#listRight {
-  margin-left: 50%;
+#listLeft {
+  padding: 1vw 2vw 1vw 4vw;
+  margin-left: 30%;
+  margin-bottom: 2vw;
+  border-radius: 20px;
+  border-style: dashed;
+  border-width: thin;
+  background-color: rgba(239, 204, 255, 0.7);
 }
 
-li a {
+
+
+#listRight > div {
+  margin-left: 5vw;
+  margin-bottom: 2vw;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 20px;
+  border-style: dashed;
+  border-width: thin;
+
+}
+
+#preventionHotline{
+  background-color: rgb(133, 224, 224, .8);
+}
+
+#eatingDisorder{
+  background-color: rgb(204, 204, 255, .8);
+}
+
+#trevorProject{
+  background-color: rgb(243, 139, 0, .8);
+}
+
+#cybersmile{
+  background-color: rgb(0, 130, 219, .8);
+}
+
+div a {
   text-decoration: none;
-  color: #AE6BC7;
+  color: white;
   font-weight: bold;
 }
 
-li a:hover {
+div a:hover {
   text-decoration: underline;
+  text-shadow: 1px 1px grey;
 }
 
-li a:active {
+div a:active {
   color: white;
 }
 
+#pageStatsParagraphLeft {
+  width: 50%;
+  font-weight: 400;
+  font-size: 2vh;
+  margin-left: 10vw;
+  margin-bottom: 2vw;
+  padding: 1vw 2vw 1vw 2vw;
+  color: black;
+}
+
+#stats li {
+  border-style: dotted;
+  border-radius: 20px;
+  border-width: thin;
+  background-color: #f7e6ff;
+  padding: 1vw 2vw 1vw 2vw;
+  margin-bottom: 2vw;
+
+}
+
+#pageTipsParagraphRight {
+  /* margin-left: 50%; */
+  font-weight: 400;
+  font-size: 2vh;
+
+  margin-bottom: 2vw;
+  color: black;
+
+
+  width: 50%;
+  margin-left: 10vw;
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+#tips li {
+  border-style: dotted;
+  border-radius: 20px;
+  border-width: thin;
+  background-color: #b3ffb3;
+  padding: 1vw 2vw 1vw 2vw;
+  margin-bottom: 2vw;
+
+}
 
 
 hr {
@@ -182,5 +321,5 @@ hr {
 
 .footerContents {
   font-size: 1vw;
-  color: #AE6BC7;
+  color: #e6b3ff;
 }
