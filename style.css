@@ -269,7 +269,7 @@ div a:active {
   color: black;
 }
 
-#stats div {
+#stats #statsLayout {
   border-style: dotted;
   border-radius: 20px;
   border-width: thin;
@@ -277,6 +277,23 @@ div a:active {
   padding: 1vw 2vw 1vw 2vw;
   margin-bottom: 2vw;
 
+}
+
+/* #statsLayout {
+  display: flex;
+  flex-direction: row;
+} */
+
+#statsimg {
+  display: flex;
+  flex-direction: row;
+  opacity: .9;
+  width: 40vw;
+  height: 20vw;
+  object-fit: cover;
+  margin-left: 30vw;
+  margin-bottom: 5vw;
+  border-radius: 20px;
 }
 
 h3 {
