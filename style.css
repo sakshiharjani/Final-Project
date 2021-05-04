@@ -66,7 +66,7 @@ html, body{
   position: absolute;
   bottom: 2px;
   opacity: .3;
-  
+
 }
 
 #mainImage {
@@ -255,6 +255,10 @@ html, body{
 
 #cybersmile{
   background-color: rgb(0, 130, 219, .7);
+}
+
+#samhsa {
+  background-color: rgb(100, 100, 150, .5);
 }
 
 div a {
